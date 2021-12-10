@@ -8,25 +8,32 @@ h1 {
 
 body {
   background-color: #343A40;
+  padding: 3%;
 }
 
 .topnav {
   background-color: #535C65;
   overflow: hidden;
 }
+button{
+  background-color: #535C65;
+  width: 33.3%;
+}
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.topnav button {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 3.5vw;
+  border-width: 0px;
+  overflow: hidden;
+  display: block;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav button:hover {
   background-color: #;
   color: black;
 }

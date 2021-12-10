@@ -8,6 +8,11 @@ h1 {
 
 body {
   background-color: #343A40;
+  padding: 3%;
+}
+
+a {
+  width: 30%
 }
 
 .topnav {
@@ -22,7 +27,9 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 40px;
+  display: block;
+  overflow: hidden;
 }
 
 /* Change the color of links on hover */
