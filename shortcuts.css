@@ -15,9 +15,11 @@ body {
   background-color: #535C65;
   overflow: hidden;
 }
-button{
+
+button {
   background-color: #535C65;
   width: 33.3%;
+  cursor: pointer;
 }
 
 .topnav button {
@@ -36,4 +38,11 @@ button{
 .topnav button:hover {
   background-color: #;
   color: black;
+}
+
+.btn-1 {
+  position: relative;
+  top: -30px;
+  id: 100%
+  font-color: #B4C9E4;
 }

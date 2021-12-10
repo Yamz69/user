@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #B4C9E4;
+  font-wieght: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #343A40;
+  padding: 3%;
+}
+

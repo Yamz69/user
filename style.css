@@ -12,7 +12,8 @@ body {
 }
 
 a {
-  width: 30%
+  width: 33%;
+  cursor: pointer;
 }
 
 .topnav {
