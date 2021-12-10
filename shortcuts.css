@@ -15,6 +15,25 @@ body {
   background-color: #535C65;
   overflow: hidden;
 }
+.btn-1 {
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 19px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #535C65;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    border-radius: 100px;
+    width: 10%
+}
 
 button {
   background-color: #535C65;
@@ -34,15 +53,7 @@ button {
   display: block;
 }
 
-/* Change the color of links on hover */
 .topnav button:hover {
   background-color: #;
   color: black;
-}
-
-.btn-1 {
-  position: relative;
-  top: -30px;
-  id: 100%
-  font-color: #B4C9E4;
 }
