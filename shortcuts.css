@@ -96,6 +96,10 @@ tr:nth-child(odd) {background-color: #E1E1E1;}
 
 h3{
   color: orange;
+  font-size: 4vw;
+}
+img{
+  width: 3vw;
 }
 
 </style>
