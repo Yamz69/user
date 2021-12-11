@@ -31,8 +31,6 @@ p {
 
 .img-sphero {
   width: 300px;
-  top: 800px;
-  left: 200px
 }
 
 h4 {
@@ -79,19 +77,16 @@ h5 {
 button {
     border: none;
     font-weight: bold;
-    color: rgb(0, 0, 0);
     padding: 19px 35px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: red;
     position: absolute;
-    left: 98px;
-    top: 500px;
     border-radius: 7px;
   }
 
