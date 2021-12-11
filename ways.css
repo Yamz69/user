@@ -12,7 +12,10 @@ body {
 }
 
 p {
-  font-size: 40px
+  font-size: 35px;
+  color: #D72638;
+  position: relative;
+  top: 25px;
 }
 
 
