@@ -39,3 +39,92 @@ body {
   background-color: #C1C2C2;
   color: white;
 }
+
+
+
+
+
+
+
+
+h3 {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+h2 {
+  color: royalblue;
+  text-align: center;
+}
+
+p {
+  color: rgb(34, 201, 42);
+  font-size: 27px;
+}
+
+.img-sphero {
+  width: 300px;
+  top: 800px;
+  left: 200px
+}
+
+h4 {
+  color: #9F33FF;
+  font-size: 34px;
+  position: relative;
+  top: 50px;
+}
+
+h5 {
+  color: #FF0064;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  top: -115px;
+}
+
+.btn-1 {
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 19px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #EF7BB9;
+    position: absolute;
+    left: 98px;
+    top: 50px;
+    border-radius: 100px;
+}
+
+.button-1: hover {
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 19px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: red;
+    position: absolute;
+    left: 98px;
+    top: 500px;
+    border-radius: 7px;
+  }
