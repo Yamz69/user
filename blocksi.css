@@ -30,7 +30,7 @@ p {
 }
 
 img{
-  width: 75%;
+  width: 66%;
   display: block;
   margin: auto;
 }
@@ -103,9 +103,4 @@ table{
 }
 td{
   width: 50%;
-}
-
-.img-spectralanalysis {
-  position: relative;
-  width: 
 }
