@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 9vw;
   color: #B4C9E4;
   font-wieght: bold;
   font-family: 'Titillium Web', sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  width: 48.2%;
+  width: 44%;
   cursor: pointer;
 }
 
@@ -23,12 +23,12 @@ a {
 
 
 .topnav a {
-  float: right;
+  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2% 3%;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 4vw;
   display: block;
   overflow: hidden;
   font-wieght: bold;
