@@ -60,7 +60,7 @@ p {
     cursor: pointer;
     background-color: #535C65;
     position: absolute;
-    left: 42%;
+    left: 43%;
     top: 30%;
     border-radius: 35px;
     width: 10%;
@@ -70,4 +70,10 @@ p {
   transition-duration: 0.4s;
   background-color: #466686;
   color: white;
+}
+
+.img-step1 {
+  position: relative;
+  top: 30px;
+  width: 30px;
 }
