@@ -29,15 +29,10 @@ p {
   font-size: 27px;
 }
 
-.img-sphero {
-  width: 50%;
-  margin: auto;
+img{
+  width: 75%;
   display: block;
-}
-.img-overdrive {
-  width: 50%;
   margin: auto;
-  display: block;
 }
 
 h4 {
@@ -84,11 +79,11 @@ h5 {
 button {
     border: none;
     font-weight: bold;
-    padding: 19px 35px;
+    padding: 2vw 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 2.5vw;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
