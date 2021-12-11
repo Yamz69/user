@@ -11,3 +11,31 @@ body {
   padding: 3%;
 }
 
+.btn-1 {
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 19px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #535C65;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    border-radius: 100px;
+    width: 10%
+}
+
+.btn-1 {
+  transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+  background-color: #C1C2C2;
+  color: white;
+}
