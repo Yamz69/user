@@ -17,6 +17,9 @@ p {
   position: relative;
   top: 25px;
 }
+a{
+  color: green;
+}
 
 
 .btn-1 {
