@@ -11,41 +11,6 @@ body {
   padding: 3%;
 }
 
-.btn-1 {
-    border: none;
-    font-weight: bold;
-    color: white;
-    padding: 19px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: #535C65;
-    position: absolute;
-    left: 2%;
-    top: 1%;
-    border-radius: 100px;
-    width: 10%
-}
-
-.btn-1 {
-  transition-duration: 0.4s;
-}
-
-.btn-1:hover {
-  background-color: #C1C2C2;
-  color: white;
-}
-
-
-
-
-
-
-
 
 h3 {
   color: red;
@@ -60,7 +25,7 @@ h2 {
 }
 
 p {
-  color: rgb(34, 201, 42);
+  color: #FF990A;
   font-size: 27px;
 }
 
@@ -88,7 +53,7 @@ h5 {
 .btn-1 {
     border: none;
     font-weight: bold;
-    color: black;
+    color: white;
     padding: 19px 35px;
     text-align: center;
     text-decoration: none;
@@ -97,16 +62,17 @@ h5 {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #EF7BB9;
+    background-color: #535C65;
     position: absolute;
     left: 98px;
     top: 50px;
     border-radius: 100px;
+    width: 10%;
 }
 
-.button-1: hover {
+.btn-1: hover {
   transition-duration: 0.4s;
-  background-color: #4CAF50;
+  background-color: #C1C2C2;
   color: white;
 }
 
@@ -128,3 +94,9 @@ button {
     top: 500px;
     border-radius: 7px;
   }
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: #C1C2C2;
+  color: white;
+}
