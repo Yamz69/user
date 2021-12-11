@@ -24,7 +24,7 @@ a {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #B4C9E4;
   text-align: center;
   padding: 2% 3%;
   text-decoration: none;
@@ -38,6 +38,6 @@ a {
 
 .topnav a:hover {
   background-color: #;
-  color: black;
+  color: #497BBD;
   transition-duration: 0.4s;
 }
