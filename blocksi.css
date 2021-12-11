@@ -30,7 +30,13 @@ p {
 }
 
 .img-sphero {
-  width: 300px;
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.img-overdrive {
+  width: 50%;
+  margin: auto;
   display: block;
 }
 
@@ -87,8 +93,9 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: red;
-    position: absolute;
+    position: relative;
     border-radius: 7px;
+    margin: auto;
   }
 
 button:hover {
