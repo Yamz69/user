@@ -8,7 +8,7 @@ h1 {
 h2{
   padding-left: 10%;
   color: #B4C9E4;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 body {
@@ -79,10 +79,10 @@ table {
 }
 th{
   background-color: #ADADAD;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
 }
 td{
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 th, td {
@@ -96,7 +96,7 @@ tr:nth-child(odd) {background-color: #E1E1E1;}
 
 h3{
   color: orange;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 img{
   width: 3vw;
