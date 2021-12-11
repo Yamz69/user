@@ -18,7 +18,7 @@ body {
 .btn-1 {
     border: none;
     font-weight: bold;
-    color: black;
+    color: white;
     padding: 19px 35px;
     text-align: center;
     text-decoration: none;
@@ -33,6 +33,15 @@ body {
     top: 1%;
     border-radius: 100px;
     width: 10%
+}
+
+.btn-1 {
+  transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+  background-color: #C1C2C2;
+  color: white;
 }
 
 button {
@@ -56,4 +65,5 @@ button {
 .topnav button:hover {
   background-color: #;
   color: black;
+  transition-duration: 0.4s;
 }
