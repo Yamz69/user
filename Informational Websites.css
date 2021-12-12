@@ -47,17 +47,16 @@ table{
 td{
   width: 50%;
   text-align: center;
+  color: #E1E1E1;
+  font-weight: bold;
+  font-size: 4vw;
 }
 img {
-    border: none;
-    font-weight: bold;
     padding: 2vw 20px;
     display: block;
-    font-size: 2vw;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
     cursor: pointer;
     position: relative;
-    border-radius: 7px;
     margin: auto;
+    width: 50%;
+  
   }
