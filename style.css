@@ -26,13 +26,14 @@ a {
   float: left;
   color: #B4C9E4;
   text-align: center;
-  padding: 2% 3%;
+  padding: .5% 3%;
   text-decoration: none;
   font-size: 4vw;
   display: block;
   overflow: hidden;
   font-wieght: bold;
   font-family: 'Titillium Web', sans-serif;
+  margin: auto;
 }
 
 
