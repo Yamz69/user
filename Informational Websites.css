@@ -40,9 +40,7 @@ body {
   background-color: #C1C2C2;
   color: white;
 }
-.hockeyButton{
-  background-image: url ("https://cdn.glitch.me/c0118d7c-6817-4132-bd1e-88766673ba5d%2Fdownload%20(10).jpeg?v=1639275326593") no-repeat;
-}
+
 table{
   width: 100%;
 }
@@ -50,3 +48,16 @@ td{
   width: 50%;
   text-align: center;
 }
+img {
+    border: none;
+    font-weight: bold;
+    padding: 2vw 20px;
+    display: block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    border-radius: 7px;
+    margin: auto;
+  }
