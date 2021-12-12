@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #B4C9E4;
+  font-wieght: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #343A40;
+  padding: 3%;
+  margin-top: 25px;
+
+}
+.btn-1 {
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #535C65;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 100px;
+    width: 100px
+}
+
+.btn-1 {
+  transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+  background-color: #C1C2C2;
+  color: white;
+}
