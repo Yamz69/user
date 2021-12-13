@@ -40,3 +40,9 @@ a {
   color: #497BBD;
   transition-duration: 0.4s;
 }
+
+p {
+  text-align: center;
+  color: orange;
+  
+}
