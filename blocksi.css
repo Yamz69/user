@@ -69,7 +69,7 @@ h5 {
     width: 100px;
 }
 
-.btn-1: hover {
+.btn-1:hover {
   transition-duration: 0.4s;
   background-color: #C1C2C2;
   color: white;
