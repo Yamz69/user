@@ -38,25 +38,35 @@ body {
   color: white;
 }
 
-button {
-    border: none;
-    font-weight: bold;
-    padding: 2vw 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 2vw;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: red;
-    position: relative;
-    border-radius: 7px;
-    margin: auto;
-  }
+.gameButtons{
 
-button:hover {
-  transition-duration: 0.4s;
-  background-color: #BA2655;
+  overflow: hidden;
+  float: left;
+  display: block;
   color: white;
+  text-align: center;
+  padding: 2vh;
+  text-decoration: none;
+  border-color: #73AB84;
+  border:1px ;
+  font-size: 3vw;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 7.5vh;
 }
+#slopeButton {
+  background-color: #73AB84;
+}
+#solutionButton {
+  background-color: #99D19C;
+}
+#alternativesButton {
+  background-color: #79C7C5;
+}
+#improvementsButton {
+  background-color: #ADE1E5;
+}
+
+
