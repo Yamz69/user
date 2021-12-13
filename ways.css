@@ -17,10 +17,10 @@ p {
   position: relative;
   top: 25px;
 }
+
 a{
   color: green;
 }
-
 
 .btn-1 {
     border: none;
@@ -47,7 +47,6 @@ a{
   background-color: #C1C2C2;
   color: white;
 }
-
 
 .btn-2 {
     border: none;

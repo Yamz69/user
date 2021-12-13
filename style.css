@@ -21,7 +21,6 @@ a {
   overflow: hidden;
 }
 
-
 .topnav a {
   float: left;
   color: #B4C9E4;
@@ -35,7 +34,6 @@ a {
   font-family: 'Titillium Web', sans-serif;
   margin: auto;
 }
-
 
 .topnav a:hover {
   background-color: #;
