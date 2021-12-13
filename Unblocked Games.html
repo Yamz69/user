@@ -14,22 +14,81 @@
     
     <button class="btn-1" onclick="window.location.href='index.html'">Home</button>
     
-    <button onclick="slopeFunction()" id="slopeButton" id="gameButtons">
+    <button onclick="slopeFunction()" id="slopeButton" id="button">
       Slope
     </button>
 
-    <button onclick="solutionFunction()" id="solutionButton" id="gameButtons">
+    <button onclick="solutionFunction()" id="solutionButton" id="button">
       Solution
     </button>
 
-    <button onclick="alternativesFunction()" id="alternativesButton" id="gameButtons">
+    <button onclick="alternativesFunction()" id="alternativesButton" id="button">
       Alternatives
     </button>
 
-    <button onclick="improvementsFunction()" id="improvementsButton" id="gameButtons">
+    <button onclick="improvementsFunction()" id="improvementsButton" id="button">
       Improvements
     </button>
+    
+    <div id="slopeGame">
+      <iframe src="https://sloped.glitch.me/"></iframe>
+    </div>
   
     
-</body>
+  </body>
+  
+  <script>
+    var slope = document.getElementById("slopeGame");
+      slope.style.display = "none";
+      var solution = document.getElementById("solutionGame");
+      solution.style.display = "none";
+      var alternatives = document.getElementById("alternativesGame");
+      alternatives.style.display = "none";
+      var improvements = document.getElementById("improvementsGame");
+      improvements.style.display = "none";
+
+      function solutionFunction() {
+        var slope = document.getElementById("slopeGame");
+        slope.style.display = "none";
+        var solution = document.getElementById("solutionGame");
+        solution.style.display = "block";
+        var alternatives = document.getElementById("alternativesGame");
+        alternatives.style.display = "none";
+        var improvements = document.getElementById("improvementsGame");
+        improvements.style.display = "none";
+      }
+
+      function alternativesFunction() {
+        var slope = document.getElementById("slopeGame");
+        slope.style.display = "none";
+        var solution = document.getElementById("solutionGame");
+        solution.style.display = "none";
+        var alternatives = document.getElementById("alternativesGame");
+        alternatives.style.display = "block";
+        var improvements = document.getElementById("improvementsGame");
+        improvements.style.display = "none";
+      }
+
+      function improvementsFunction() {
+        var slope = document.getElementById("slopeGame");
+        slope.style.display = "none";
+        var solution = document.getElementById("solutionGame");
+        solution.style.display = "none";
+        var alternatives = document.getElementById("alternativesGame");
+        alternatives.style.display = "none";
+        var improvements = document.getElementById("improvementsGame");
+        improvements.style.display = "block";
+      }
+
+      function slopeFunction() {
+        var slope = document.getElementById("slopeGame");
+        slope.style.display = "block";
+        var solution = document.getElementById("solutionGame");
+        solution.style.display = "none";
+        var alternatives = document.getElementById("alternativesGame");
+        alternatives.style.display = "none";
+        var improvements = document.getElementById("improvementsGame");
+        improvements.style.display = "none";
+      }
+  </script>
 </html>

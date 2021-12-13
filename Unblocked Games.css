@@ -38,7 +38,7 @@ body {
   color: white;
 }
 
-.gameButtons{
+button{
 
   overflow: hidden;
   float: left;
@@ -47,11 +47,10 @@ body {
   text-align: center;
   padding: 2vh;
   text-decoration: none;
-  border-color: #73AB84;
-  border:1px ;
   font-size: 3vw;
   cursor: pointer;
   width: 25%;
+  border-width: 0px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-bottom: 7.5vh;
@@ -68,5 +67,10 @@ body {
 #improvementsButton {
   background-color: #ADE1E5;
 }
+
+iframe{
+  width: 100%;
+}
+
 
 
