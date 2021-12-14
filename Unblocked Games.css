@@ -106,3 +106,8 @@ span:hover {
   color: white;
   background-color: red;
 }
+
+#slopeButton:hover {
+  transition-duration: 0.4s;
+  background-color: red;
+}
