@@ -75,3 +75,17 @@ iframe{
 
 
 
+p {
+  color: orange;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  transition-duration: 0.4s;
+  color: purple;
+}
