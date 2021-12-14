@@ -68,8 +68,8 @@ button {
 }
 
 iframe {
-  width: 90vw;
-  height: 80vh;
+  width: 100vw;
+  height: 110vh;
   position: relative;
   margin-top: 40px;
 }
@@ -99,4 +99,10 @@ span {
   font-family: monospace;
   padding: 10px 30px;
   border: 1px solid white;
+}
+
+span:hover {
+  transition-duration: 0.4s;
+  color: white;
+  background-color: red;
 }
