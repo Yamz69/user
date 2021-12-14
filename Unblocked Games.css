@@ -106,3 +106,9 @@ span:hover {
   color: white;
   background-color: red;
 }
+
+h2 {
+  position: relative;
+  top: 215px;
+  left: 240px;
+}
