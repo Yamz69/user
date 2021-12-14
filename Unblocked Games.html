@@ -28,8 +28,8 @@
       Slope
     </button>
 
-    <button onclick="solutionFunction()" id="solutionButton" id="button">
-      Solution
+    <button onclick="soccerPhysicsFunction()" id="soccerPhysicsButton" id="button">
+      soccerPhysics
     </button>
 
     <button
@@ -49,26 +49,29 @@
     </button>
 
     <div id="slopeGame">
-      <span onclick="lol()">fullscreen</span>
+      <span onclick="slopeGame()">fullscreen</span>
       <iframe id="game" src="https://ugiytdrcvgbh.glitch.me/"></iframe>
     </div>
-  </body>
+    <div id="soccerPhysicsGame">
+      <span onclick="soccerPhysicsGame()">fullscreen</span>
+      <iframe id="game" src="https://soccer--physics.glitch.me/"></iframe>
+    </div>
   <body>
     <script>
       var slope = document.getElementById("slopeGame");
       slope.style.display = "none";
-      var solution = document.getElementById("solutionGame");
-      solution.style.display = "none";
+      var soccerPhysics = document.getElementById("soccerPhysicsGame");
+      soccerPhysics.style.display = "none";
       var alternatives = document.getElementById("alternativesGame");
       alternatives.style.display = "none";
       var improvements = document.getElementById("improvementsGame");
       improvements.style.display = "none";
 
-      function solutionFunction() {
+      function soccerPhysicsFunction() {
         var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
-        var solution = document.getElementById("solutionGame");
-        solution.style.display = "block";
+        var soccerPhysics = document.getElementById("soccerPhysicsGame");
+        soccerPhysics.style.display = "block";
         var alternatives = document.getElementById("alternativesGame");
         alternatives.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
@@ -78,8 +81,8 @@
       function alternativesFunction() {
         var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
-        var solution = document.getElementById("solutionGame");
-        solution.style.display = "none";
+        var soccerPhysics = document.getElementById("soccerPhysicsGame");
+        soccerPhysics.style.display = "none";
         var alternatives = document.getElementById("alternativesGame");
         alternatives.style.display = "block";
         var improvements = document.getElementById("improvementsGame");
@@ -89,8 +92,8 @@
       function improvementsFunction() {
         var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
-        var solution = document.getElementById("solutionGame");
-        solution.style.display = "none";
+        var soccerPhysics = document.getElementById("soccerPhysicsGame");
+        soccerPhysics.style.display = "none";
         var alternatives = document.getElementById("alternativesGame");
         alternatives.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
@@ -100,15 +103,18 @@
       function slopeFunction() {
         var slope = document.getElementById("slopeGame");
         slope.style.display = "block";
-        var solution = document.getElementById("solutionGame");
-        solution.style.display = "none";
+        var soccerPhysics = document.getElementById("soccerPhysicsGame");
+        soccerPhysics.style.display = "none";
         var alternatives = document.getElementById("alternativesGame");
         alternatives.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
         improvements.style.display = "none";
       }
-      function lol() {
-        document.getElementById("game").requestFullscreen();
+      function slopeGame() {
+        document.getElementById("slopeGame").requestFullscreen();
+      }
+      function soccerPhysicsGame() {
+        document.getElementById("soccerPhysicsGame").requestFullscreen();
       }
     </script>
   </body>
