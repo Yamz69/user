@@ -56,9 +56,11 @@ button {
 }
 #slopeButton {
   background-color: #73AB84;
+  width: 20%;
 }
-#solutionButton {
+#soccerPhysicsButton {
   background-color: #99D19C;
+  width: 30%;
 }
 #alternativesButton {
   background-color: #79C7C5;
@@ -69,7 +71,7 @@ button {
 
 iframe {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   margin-top: 40px;
 }
