@@ -91,7 +91,8 @@ a:hover {
 
 span {
   position: absolute;
-  top: 300px;
+  top: 500px;
+  text-decoration: none;
   margin: 30px;
   color: white;
   text-transform: uppercase;
