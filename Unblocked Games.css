@@ -89,12 +89,12 @@ a:hover {
 
 span {
   position:relative;
-  margin:15px;
+  margin:30px;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
   font-size: 20px;
   font-family: monospace;
-  padding: 30px 0px;
+  padding: 10px 30px;
   border: 1px solid white;
 }
