@@ -68,8 +68,10 @@ button {
 }
 
 iframe {
-  width: 100vw;
-  height: 120vh;
+  width: 90vw;
+  height: 80vh;
+  position: relative;
+  margin-top: 40px;
 }
 
 p {
@@ -88,8 +90,8 @@ a:hover {
 }
 
 span {
-  position:relative;
-  margin:30px;
+  position: relative;
+  margin: 30px;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
