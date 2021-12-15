@@ -113,3 +113,8 @@ span:hover {
   transition-duration: 0.4s;
   background-color: Green;
 }
+
+#soccerPhysicsButton:hover {
+  transition-duration: 0.4s;
+  background-color: orange;
+}
