@@ -88,7 +88,7 @@ p {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #269BE3;
+    background-color: #E15554;
     position: absolute;
     left: 555px;
     top: 400px;
@@ -98,5 +98,5 @@ p {
 
 .btn-2:hover {
   transition-duration: 0.4s;
-  background-color: 
+  background-color: #74526C;
 }
