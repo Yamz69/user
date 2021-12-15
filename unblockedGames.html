@@ -32,7 +32,7 @@
       Soccer Physics
     </button>
 
-    <button onclick="alternativesFunction()" id="alternativesButton" id="button">Coming Soon</button>
+    <button onclick="billyFunction()" id="billyButton" id="button">Billy vs Potato Head</button>
 
     <button
       onclick="improvementsFunction()"id="improvementsButton" id="button">Coming Soon</button>
@@ -45,14 +45,18 @@
       <span onclick="soccerPhysicsGame()">fullscreen</span>
       <iframe id="soccerPhysicsGame1" src="https://soccer--physics.glitch.me/"></iframe>
     </div>
+    <div id="bilyGame">
+      <span onclick="billyGame()">fullscreen</span>
+      <iframe id="billyGame1"width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/448/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+    </div>
   <body>
     <script>
       var slope = document.getElementById("slopeGame");
       slope.style.display = "none";
       var soccerPhysics = document.getElementById("soccerPhysicsGame");
       soccerPhysics.style.display = "none";
-      var alternatives = document.getElementById("alternativesGame");
-      alternatives.style.display = "none";
+      var billy = document.getElementById("billyGame");
+      billy.style.display = "none";
       var improvements = document.getElementById("improvementsGame");
       improvements.style.display = "none";
 
@@ -61,19 +65,19 @@
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "block";
-        var alternatives = document.getElementById("alternativesGame");
-        alternatives.style.display = "none";
+        var billy = document.getElementById("billyGame");
+        billy.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
         improvements.style.display = "none";
       }
 
-      function alternativesFunction() {
+      function billyFunction() {
         var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
-        var alternatives = document.getElementById("alternativesGame");
-        alternatives.style.display = "block";
+        var billy = document.getElementById("billyGame");
+        billy.style.display = "block";
         var improvements = document.getElementById("improvementsGame");
         improvements.style.display = "none";
       }
@@ -83,8 +87,8 @@
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
-        var alternatives = document.getElementById("alternativesGame");
-        alternatives.style.display = "none";
+        var billy = document.getElementById("billyGame");
+        billy.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
         improvements.style.display = "block";
       }
@@ -94,8 +98,8 @@
         slope.style.display = "block";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
-        var alternatives = document.getElementById("alternativesGame");
-        alternatives.style.display = "none";
+        var billy = document.getElementById("billyGame");
+        billy.style.display = "none";
         var improvements = document.getElementById("improvementsGame");
         improvements.style.display = "none";
       }
@@ -104,6 +108,9 @@
       }
       function soccerPhysicsGame() {
         document.getElementById("soccerPhysicsGame1").requestFullscreen();
+      }
+      function billyGame() {
+        document.getElementById("billyGame1").requestFullscreen();
       }
     </script>
   </body>

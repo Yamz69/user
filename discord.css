@@ -44,7 +44,7 @@ a {
 p {
   text-align: center;
   color: orange;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .btn-1 {
@@ -74,4 +74,29 @@ p {
 .btn-1:hover {
   background-color: #C1C2C2;
   color: white;
+}
+
+.btn-2 {
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #269BE3;
+    position: absolute;
+    left: 555px;
+    top: 400px;
+    border-radius: 100px;
+    width: 250px;
+}
+
+.btn-2:hover {
+  transition-duration: 0.4s;
+  background-color: 
 }
