@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #B4C9E4;
+  font-wieght: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #343A40;
+  padding: 2%;
+}
+
+a {
+  width: 44%;
+  cursor: pointer;
+}
+
+.topnav {
+  background-color: #535C65;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #B4C9E4;
+  text-align: center;
+  padding: 3% 3%;
+  text-decoration: none;
+  font-size: 4vw;
+  display: block;
+  overflow: hidden;
+  font-wieght: bold;
+  font-family: 'Titillium Web', sans-serif;
+  margin: auto;
+}
+
+.topnav a:hover {
+  background-color: #;
+  color: #497BBD;
+  transition-duration: 0.4s;
+}
+
+p {
+  text-align: center;
+  color: orange;
+  font-size: 35px;
+}
+
+.btn-1 {
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #535C65;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 100px;
+    width: 100px
+}
+
+.btn-1 {
+  transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+  background-color: #C1C2C2;
+  color: white;
+}
