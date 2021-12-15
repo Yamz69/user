@@ -92,7 +92,7 @@ a:hover {
 }
 
 span {
-  position: relative;
+  position: relative  ;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
