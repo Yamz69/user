@@ -45,7 +45,7 @@ button {
   text-align: center;
   padding: 2vh;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 2.6vw;
   cursor: pointer;
   width: 25%;
   border-width: 0px;
@@ -55,7 +55,7 @@ button {
 }
 #slopeButton {
   background-color: #73AB84;
-  width: 20%;
+  width: 15%;
 }
 #soccerPhysicsButton {
   background-color: #99D19C;
@@ -63,6 +63,7 @@ button {
 }
 #billyButton {
   background-color: #79C7C5;
+  width: 30%;
 }
 #improvementsButton {
   background-color: #ADE1E5;
