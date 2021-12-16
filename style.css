@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-size: 7vw;
+  font-size: 7vmin;
   color: #B4C9E4;
   font-wieght: bold;
   font-family: 'Titillium Web', sans-serif;
@@ -25,7 +25,7 @@ a {
   float: left;
   color: #B4C9E4;
   text-align: center;
-  padding: 3% 3%;
+  padding: 2% 2%;
   text-decoration: none;
   font-size: 4vw;
   display: block;
