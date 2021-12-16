@@ -3,10 +3,10 @@ h1 {
   font-size: 7vw;
   color: #B4C9E4;
   font-wieght: bold;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h2{
+h2 {
   padding-left: 10%;
   color: #B4C9E4;
   font-size: 3vw;
@@ -24,23 +24,23 @@ body {
 }
 
 .btn-1 {
-    border: none;
-    font-weight: bold;
-    color: white;
-    padding: 19px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: #535C65;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    border-radius: 100px;
-    width: 100px
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #535C65;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 100px;
+  width: 100px;
 }
 
 .btn-1 {
@@ -81,32 +81,34 @@ table {
   margin: auto;
 }
 
-th{
+th {
   background-color: #ADADAD;
   font-size: 2.5vw;
 }
 
-td{
+td {
   font-size: 2vw;
 }
 
-
-th, td {
+th,
+td {
   text-align: left;
   padding: 8px;
   text-align: center;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
-tr:nth-child(odd) {background-color: #E1E1E1;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #E1E1E1;
+}
 
-h3{
+h3 {
   color: orange;
   font-size: 3vw;
 }
 
-img{
+img {
   width: 3vw;
 }
-
-</style>
