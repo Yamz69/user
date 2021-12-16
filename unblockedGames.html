@@ -41,15 +41,15 @@
     
     <div id="slopeGame">
       <span onclick="slopeGame()">fullscreen</span>
-      <iframe id="slopeGame1" src="https://ugiytdrcvgbh.glitch.me/"></iframe>
+      <iframe id="slopeGame1" src="https://ugiytdrcvgbh.glitch.me/" allowfullscreen></iframe>
     </div>
     <div id="soccerPhysicsGame">
       <span onclick="soccerPhysicsGame()">fullscreen</span>
-      <iframe id="soccerPhysicsGame1" src="https://soccer--physics.glitch.me/"></iframe>
+      <iframe id="soccerPhysicsGame1" src="https://soccer--physics.glitch.me/" allowfullscreen></iframe>
     </div>
     <div id="billyGame">
       <span onclick="billyGame()">fullscreen</span>
-      <iframe id="billyGame1" src="https://games.construct.net/448/latest"></iframe>
+      <iframe id="billyGame1" src="https://games.construct.net/448/latest" allowfullscreen></iframe>
     </div>
   <body>
     <script>
@@ -114,13 +114,7 @@
       function billyGame() {
         document.getElementById("billyGame1").requestFullscreen();
       }
-      if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
+
     </script>
   </body>
 </html>
