@@ -123,12 +123,3 @@ span:hover {
   background-color: #975E65;
 }
 
-function {
-  height: 100%;
-  width: 200vw;
-  position: relative;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
