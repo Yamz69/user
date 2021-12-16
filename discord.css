@@ -83,15 +83,11 @@ p {
     padding: 19px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: auto;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: #E15554;
-    position: absolute;
-    left: 555px;
-    top: 400px;
     border-radius: 100px;
     width: 250px;
 }
