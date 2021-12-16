@@ -24,21 +24,23 @@
       Home
     </button>
     
+    <div class="row">
+      <div class="column left" style="background-color:#aaa;">
+	      <ul>
+          <li><a href="unblockedGamesSlopeTest.html">Slope</a></li>
+          <li><a href="#news">Soccer Physics</a></li>
+          <li><a href="#contact">Billy vs Potato Head</a></li>
+          <li><a href="">Coming Soon</a></li>
+        </ul>
+      </div>
+        <div class="column right" style="background-color:#bbb;">
+          <div id="slopeGame">
+            <span onclick="slopeGame()">fullscreen</span>
+            <iframe id="slopeGame1" src="https://ugiytdrcvgbh.glitch.me/"></iframe>
+          </div>
+        </div>
+      </div>
     
-
-    
-    <div id="slopeGame">
-      <span onclick="slopeGame()">fullscreen</span>
-      <iframe id="slopeGame1" src="https://ugiytdrcvgbh.glitch.me/"></iframe>
-    </div>
-    <div id="soccerPhysicsGame">
-      <span onclick="soccerPhysicsGame()">fullscreen</span>
-      <iframe id="soccerPhysicsGame1" src="https://soccer--physics.glitch.me/"></iframe>
-    </div>
-    <div id="billyGame">
-      <span onclick="billyGame()">fullscreen</span>
-      <iframe id="billyGame1" src="https://games.construct.net/448/latest"></iframe>
-    </div>
   <body>
     <script>
       var slope = document.getElementById("slopeGame");
@@ -50,16 +52,6 @@
       var improvements = document.getElementById("improvementsGame");
       improvements.style.display = "none";
 
-      
-      function slopeGame() {
-        document.getElementById("slopeGame1").requestFullscreen();
-      }
-      function soccerPhysicsGame() {
-        document.getElementById("soccerPhysicsGame1").requestFullscreen();
-      }
-      function billyGame() {
-        document.getElementById("billyGame1").requestFullscreen();
-      }
     </script>
   </body>
 </html>

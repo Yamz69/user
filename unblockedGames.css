@@ -120,6 +120,6 @@ span:hover {
 
 #billyButton:hover {
   transition-duration: 0.4s;
-  background-color: #975E65;
+  color-opacti: #975E65;
 }
 
