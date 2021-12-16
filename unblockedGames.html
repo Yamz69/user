@@ -53,7 +53,7 @@
     </div>
   <body>
     <script>
-      var slope = document.getElementById("slopeGame1");
+      var slope = document.getElementById("slopeGame");
       slope.style.display = "none";
       var soccerPhysics = document.getElementById("soccerPhysicsGame");
       soccerPhysics.style.display = "none";
@@ -63,7 +63,7 @@
       improvements.style.display = "none";
 
       function soccerPhysicsFunction() {
-        var slope = document.getElementById("slopeGame1");
+        var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "block";
@@ -74,7 +74,7 @@
       }
 
       function billyFunction() {
-        var slope = document.getElementById("slopeGame1");
+        var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
@@ -85,7 +85,7 @@
       }
 
       function improvementsFunction() {
-        var slope = document.getElementById("slopeGame1");
+        var slope = document.getElementById("slopeGame");
         slope.style.display = "none";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
@@ -96,7 +96,7 @@
       }
 
       function slopeFunction() {
-        var slope = document.getElementById("slopeGame1");
+        var slope = document.getElementById("slopeGame");
         slope.style.display = "block";
         var soccerPhysics = document.getElementById("soccerPhysicsGame");
         soccerPhysics.style.display = "none";
@@ -106,13 +106,7 @@
         improvements.style.display = "none";
       }
       function slopeGame() {
-        if (slope.requestFullscreen) {
-          slope.requestFullscreen();
-        } else if (slope.webkitRequestFullscreen) { /* Safari */
-          slope.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { /* IE11 */
-          slope.msRequestFullscreen();
-      }
+        document.getElementById("slopeGame1").requestFullscreen();
       }
       function soccerPhysicsGame() {
         document.getElementById("soccerPhysicsGame1").requestFullscreen();
