@@ -23,20 +23,10 @@
     <button class="btn-1" onclick="window.location.href='index.html'">
       Home
     </button>
+    
+    
 
-    <button onclick="slopeFunction()" id="slopeButton" id="button">
-      Slope
-    </button>
-
-    <button onclick="soccerPhysicsFunction()" id="soccerPhysicsButton" id="button">
-      Soccer Physics
-    </button>
-
-    <button onclick="billyFunction()" id="billyButton" id="button">Billy vs Potato Head</button>
-
-    <button
-      onclick="improvementsFunction()"id="improvementsButton" id="button">Coming Soon</button>
-
+    
     <div id="slopeGame">
       <span onclick="slopeGame()">fullscreen</span>
       <iframe id="slopeGame1" src="https://ugiytdrcvgbh.glitch.me/"></iframe>
@@ -60,49 +50,7 @@
       var improvements = document.getElementById("improvementsGame");
       improvements.style.display = "none";
 
-      function soccerPhysicsFunction() {
-        var slope = document.getElementById("slopeGame");
-        slope.style.display = "none";
-        var soccerPhysics = document.getElementById("soccerPhysicsGame");
-        soccerPhysics.style.display = "block";
-        var billy = document.getElementById("billyGame");
-        billy.style.display = "none";
-        var improvements = document.getElementById("improvementsGame");
-        improvements.style.display = "none";
-      }
-
-      function billyFunction() {
-        var slope = document.getElementById("slopeGame");
-        slope.style.display = "none";
-        var soccerPhysics = document.getElementById("soccerPhysicsGame");
-        soccerPhysics.style.display = "none";
-        var billy = document.getElementById("billyGame");
-        billy.style.display = "block";
-        var improvements = document.getElementById("improvementsGame");
-        improvements.style.display = "none";
-      }
-
-      function improvementsFunction() {
-        var slope = document.getElementById("slopeGame");
-        slope.style.display = "none";
-        var soccerPhysics = document.getElementById("soccerPhysicsGame");
-        soccerPhysics.style.display = "none";
-        var billy = document.getElementById("billyGame");
-        billy.style.display = "none";
-        var improvements = document.getElementById("improvementsGame");
-        improvements.style.display = "block";
-      }
-
-      function slopeFunction() {
-        var slope = document.getElementById("slopeGame");
-        slope.style.display = "block";
-        var soccerPhysics = document.getElementById("soccerPhysicsGame");
-        soccerPhysics.style.display = "none";
-        var billy = document.getElementById("billyGame");
-        billy.style.display = "none";
-        var improvements = document.getElementById("improvementsGame");
-        improvements.style.display = "none";
-      }
+      
       function slopeGame() {
         document.getElementById("slopeGame1").requestFullscreen();
       }
