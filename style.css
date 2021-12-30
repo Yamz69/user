@@ -47,10 +47,6 @@ p {
   font-size: 35px;
 }
 
-@media all and (max-width: 500px) {
-  
-}
-
-@media (orientation: landscape) {
+@media only screen and () {
   
 }
