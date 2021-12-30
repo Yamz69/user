@@ -47,4 +47,10 @@ p {
   font-size: 35px;
 }
 
-@media 
+@media all and (max-width: 500px) {
+  
+}
+
+@media (orientation: landscape) {
+  
+}
