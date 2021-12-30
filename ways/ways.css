@@ -80,3 +80,19 @@ a{
   width: 200px;
   left: 950px;
 }
+
+@media(max-width: 500px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
